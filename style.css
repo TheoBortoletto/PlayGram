@@ -1,0 +1,312 @@
+/** Configurações Gerais **/
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    /** Cor do fundo da página **/
+    background-color: #6030c0;
+    /** Cor da Fonte **/
+    color: #ffffff;
+    /** Fonte **/
+    font-family: Century Gothic;
+    margin: 0;
+    padding: 10px 50px 50px 50px;
+  } 
+  
+  h1, h2 {
+    margin: 0;
+  }
+  
+  header h1 {
+    font-size: 4rem;  
+    padding: 25px;
+    user-select: none;
+    text-shadow: 5px 5px 5px #271c40;
+  }
+  
+  #logo {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  #logoPlay {
+    padding-right: 10px;
+    pointer-events: none;
+  }
+  
+  .menu {
+    background-color: #c191e8;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 5px 4px #4c008a;
+  }
+  
+  .menu a {
+    padding: 14px;
+    color: white;
+    text-decoration: none; 
+    transition: background-color 0.3s;
+  }
+  
+  .menu a:hover {
+    background-color: white;
+    color: #c191e8;
+  }
+  
+  .coluna-esquerda {
+    float: left;
+    width: 75%;
+  }
+  
+  .coluna-direita {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  .card {
+    background-color: #9126d9;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+  }
+  
+  #georgiaBanner {
+    height: 255px;
+    background-image: url('images/smile32.jpeg');
+    background-size: 100%;
+    color: white;
+    font-size: 1vw; /** vw: viewport width, vh: viewport height **/
+    position: relative;
+    text-shadow: 2px 2px 2px #0b7893;
+    transition: box-shadow 0.5s;
+    cursor: pointer;
+  }
+  
+  #georgiaBanner:hover {
+    box-shadow: 3px 3px 5px #52008E;
+  }
+  
+  #função {
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+    font-size: 1vw;
+    text-shadow: 0px 2px 1px black;
+  }
+  
+  .equipeImg {
+    height: 75px;
+    border-radius: 50px;
+    margin: 10px;
+    box-shadow: 0px 0px 5px #52008E;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+  }
+  
+  .equipeImg:hover {
+    box-shadow: 5px 10px 10px #52008E;
+  }
+  
+  .itensEquipe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .conheçaEquipe a {
+    color: #52008E;
+  }
+  
+  .equipeText {
+    color: white;
+    text-shadow: 2px 2px 2px #0b7893;
+  }
+  
+  .parceiros {
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 1.5vw;
+    padding: 10px;
+    transition: box-shadow 0.3s;
+    /* border-radius: */
+  }
+  
+  .parceirosText {
+    color: white;
+    text-shadow: 2px 2px 2px #0b7893;
+  }
+  
+  .parceiros:hover {
+    box-shadow: 3px 3px 20px #52008E;
+  }
+  
+  .parceiros img {
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 22px
+  }
+  
+  .social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 18px;
+  }
+  
+  .socialText {
+    color: white;
+    text-shadow: 2px 2px 2px #0b7893;
+  }
+  
+  .social img {
+    margin: 5px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+  }
+  
+  .social img:hover {
+    opacity: 0.5;
+  }
+  
+  .produtoraText {
+    color: white;
+    text-shadow: 2px 2px 2px #0b7893;
+  }
+  
+  .serviços img {
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #52008E;
+    transition: box-shadow 0.3s;
+  }
+  
+  .tituloServiços {
+    font-weight: bold;
+  }
+  
+  .serviçoText p {
+    margin-top: 4px;
+  }
+  
+  
+  .serviços {
+    text-align:center;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* ou: repeat(auto-fit, minmax(210px, 2fr)); */
+  }
+  
+  .serviços img:hover{
+    box-shadow: 3px 3px 20px #52008E;
+  }
+  
+  .exemploText {
+    padding: 10px;
+    padding-bottom: inherit;
+    color: white;
+    text-shadow: 2px 2px 2px #0b7893;
+  }
+  
+  .tamanho {
+    height: 460px;
+    border-radius: 2px;
+    margin: 10px;
+  }
+  
+  .descriçaoText {
+    background-color: #c971da;
+    width: 20%;
+    height: 75%;
+    margin: 0px 0px 0px 10px;
+    display: inline-block;
+    float: right;
+    bottom: 400px;
+    left: 15px;
+    position: relative;
+    font-size: 0.6vw;
+  }
+  
+  .dtext {
+    margin: 10px;
+    padding: 5px;
+    position: relative;
+  }
+  
+  #endCard {
+    background-color: #663082;
+    height:270px;
+  }
+  
+  .endtext2 {
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 2px 2px #0b7893;
+  }
+  
+  #phoneLogo {
+    position: fixed;
+    bottom: 5px;
+    right: -25px;
+    height: 220px;
+    width: 300px;
+  }
+  
+  #phoneLogo img {
+    position: absolute;
+    border-radius: 100px;
+    right: 60px;
+    width: 80px;
+  }
+  
+  #phoneNumber {
+    position: absolute;
+    height: 85px;
+    width: 191px;
+    background-color: #c971da;
+    color: white;
+    left: -62px;
+    border-radius: 16px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  #phoneLogo img:hover + #phoneNumber {
+    opacity: 1;
+  }
+  
+  #phoneNUmber p {
+    margin: 0px;
+  }
+  
+  @media screen and (max-width: 800px) {
+    
+    .coluna-esquerda {
+    width: 100%;
+  }
+  
+  .coluna-direita {
+    width: 100%;
+    padding-left: 20px;
+  }
+  
+  header h1 {
+    font-size: 3rem;  
+    padding: 25px;
+    user-select: none;
+    text-shadow: 5px 5px 5px #271c40;
+  }
+  
+  #logoPlay {
+   width: 20%;
+   height: 170px;
+  }
+    
+  }
